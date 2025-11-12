@@ -90,6 +90,46 @@ Unterstützung für "REA Dynamic Dirt". Fahren in stehendem Gewässer erstellt d
   (In Verbindung mit „REA Dynamic Dirt“)
 
 </de>
+<fr> 
+Compatibilité : Ce mod a été automatiquement adapté pour être plus compatible avec les versions récentes du jeu.
+L’objectif de ce mod est de rendre le jeu plus réaliste et de rendre l’adaptation du véhicule à chaque tâche plus gratifiante.
+Le but est également d’en faire un mod universel. Ce mod prend en charge le multijoueur et les serveurs dédiés.
+Aucune modification des fichiers XML n’est nécessaire. Certaines données XML sont remplacées !
+
+Dans le jeu de base, le type de pneu n’est souvent pas pris en compte, ce qui fait par exemple que
+le chariot élévateur Manitou MC18 a la même adhérence qu’un tracteur.
+Ce mod comble ces lacunes en utilisant l’indice de la bande de roulement, le rendant ainsi universel.
+Les différents types de pneus réagissent désormais de manière totalement différente selon le type de sol,
+et sont affectés différemment par la pluie ou l’enfoncement dans la boue.
+
+Ce mod prend en charge les 4 types de pneus standards : MUD, STREET, OFFROAD et CRAWLERS.
+La friction est calculée selon la taille du pneu, rendant les pneus larges, jumelés ou les chenilles bien plus utiles pour les travaux lourds.
+Les pneus étroits sont moins adaptés aux gros travaux, mais parfaits pour les tâches légères en phase de croissance avancée.
+L’adhérence des pneus est calculée selon leur largeur et leur rayon.
+L’adhérence des chenilles est basée sur leur largeur et leur longueur.
+Ajoute également une résistance au roulement et latérale, ce qui signifie :
+
+Plus de charge sur les roues, pneus petits et sol mou = plus d’effort pour tirer ou pousser.
+Moins de charge sur les roues, pneus grands et sol dur = moins d’effort nécessaire.
+L’essieu avant n’est plus verrouillé par défaut lorsqu’un chargeur frontal est attaché.
+La déformation des pneus est augmentée.
+Compatibilité avec REA Dynamic Dirt :
+Conduire dans l’eau stagnante générée par ce mod réduit la traction et augmente l’enfoncement des roues.
+
+1.1.0.0
+- Correction d’un bug où la vitesse de rotation de la roue était mesurée à la mauvaise position.
+- Ajout du creusement des roues dans le sol.
+
+1.1.0.1
+- L’humidité du sol change plus lentement pour offrir une transition plus fluide entre sec et humide.
+- L’humidité du sol est désormais sauvegardée pour éviter sa réinitialisation après le rechargement d’une partie.
+
+1.1.1.0
+- Amélioration des performances.
+
+La détection de la présence d’une roue dans une zone inondée est désormais propre à chaque roue.
+(En association avec « REA Dynamic Dirt »)
+</fr>
     </description>
 	<l10n>
 	</l10n>
